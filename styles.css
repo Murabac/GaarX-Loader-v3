@@ -19,11 +19,12 @@ body{
   }
 
   .RedLine {
-    animation: rotateAnimation 9s ease-in-out infinite;
-    transform-origin: center;
+    transform-origin: 415.244px 406.246px;
+    animation: rotateLine 9s ease-in-out infinite;
   }
 
-  @keyframes rotateAnimation {
+
+  @keyframes rotateLine {
     0% {
       transform: rotate(0deg);
     }
